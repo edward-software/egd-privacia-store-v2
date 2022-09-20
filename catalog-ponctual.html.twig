@@ -178,10 +178,9 @@
 
                             </div>
                             <button type="button"
-                                    class="btn btn__blue btn__large"
+                                    class="btn btn__blue btn__large catalog_next_step_button"
                                     data-url="{{ path('paprec_public_contact_regulier_index', {locale: locale, cartUuid: cart.id}) }}"
-                                    data-ajax="{{ path('paprec_public_catalog_addFrequency', {locale: locale, cartUuid: cart.id}) }}"
-                                    id="catalog_next_step_button">
+                                    data-ajax="{{ path('paprec_public_catalog_addFrequency', {locale: locale, cartUuid: cart.id}) }}">
                                 {{ 'Public.Catalog.NextStep'| trans({}, "messages", locale) }}
                             </button>
                         </div>
